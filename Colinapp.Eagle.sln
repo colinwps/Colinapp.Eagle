@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Colinapp.Eagle.WebApi", "Colinapp.Eagle.WebApi\Colinapp.Eagle.WebApi.csproj", "{B7B7F930-B795-4E1A-B989-8B73AB1978E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 Utils 工具类", "01 Utils 工具类", "{EAE6A49D-BDA4-4E92-9235-ADEA76F553DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 Core 核心类", "02 Core 核心类", "{C567119F-AA52-4AD6-9F38-2EF004E92A49}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 Entity 实体类", "03 Entity 实体类", "{760BA8FB-5289-429B-ACEF-64E0880114CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 WebAPI API接口", "04 WebAPI API接口", "{79584C37-58F2-4DE2-8252-C6BF2A2D8B8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Colinapp.Utils", "Colinapp.Utils\Colinapp.Utils.csproj", "{E13DD6F0-373D-4FDA-BC5E-AD45F17D1D06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Colinapp.Core", "Colinapp.Core\Colinapp.Core.csproj", "{DA37B7EC-37BF-40E7-8685-0816206FB2C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Colinapp.Entity", "Colinapp.Entity\Colinapp.Entity.csproj", "{45B6915C-2EDA-4F49-A974-9AD384859F62}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7B7F930-B795-4E1A-B989-8B73AB1978E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7B7F930-B795-4E1A-B989-8B73AB1978E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7B7F930-B795-4E1A-B989-8B73AB1978E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7B7F930-B795-4E1A-B989-8B73AB1978E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E13DD6F0-373D-4FDA-BC5E-AD45F17D1D06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E13DD6F0-373D-4FDA-BC5E-AD45F17D1D06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E13DD6F0-373D-4FDA-BC5E-AD45F17D1D06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E13DD6F0-373D-4FDA-BC5E-AD45F17D1D06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA37B7EC-37BF-40E7-8685-0816206FB2C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA37B7EC-37BF-40E7-8685-0816206FB2C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA37B7EC-37BF-40E7-8685-0816206FB2C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA37B7EC-37BF-40E7-8685-0816206FB2C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45B6915C-2EDA-4F49-A974-9AD384859F62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45B6915C-2EDA-4F49-A974-9AD384859F62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45B6915C-2EDA-4F49-A974-9AD384859F62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45B6915C-2EDA-4F49-A974-9AD384859F62}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B7B7F930-B795-4E1A-B989-8B73AB1978E7} = {79584C37-58F2-4DE2-8252-C6BF2A2D8B8D}
+		{E13DD6F0-373D-4FDA-BC5E-AD45F17D1D06} = {EAE6A49D-BDA4-4E92-9235-ADEA76F553DE}
+		{DA37B7EC-37BF-40E7-8685-0816206FB2C8} = {C567119F-AA52-4AD6-9F38-2EF004E92A49}
+		{45B6915C-2EDA-4F49-A974-9AD384859F62} = {760BA8FB-5289-429B-ACEF-64E0880114CB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C5DC5CF-BB6B-4F3B-87C4-2E385F0549FC}
+	EndGlobalSection
+EndGlobal

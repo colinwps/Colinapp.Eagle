@@ -1,0 +1,6 @@
+@Colinapp.Eagle.WebApi_HostAddress = http://localhost:5277
+
+GET {{Colinapp.Eagle.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
